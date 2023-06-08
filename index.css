@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    
+    
+    max-height: 54px;
+    background-color: black;
+
+    
+   
+}
+
+header .container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+
+img{
+height: 40px;
+width: 132px;
+
+    
+}
+ul{
+
+    display: flex;
+    list-style: none;
+    
+    
+
+}
+
+li{
+    color: white;
+    padding: 5px;
+    
+    
+}
+
+span{
+    color: white;
+}
