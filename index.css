@@ -5,34 +5,66 @@
     font-family: 'Poppins', sans-serif;
 }
 
+h1{
+
+    font-weight: 800;
+    font-size: 2.2rem;
+}
+
+p{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+a{
+    color: black;
+}
+
+
+.caption{
+    font-size: 0.7rem;
+    margin-top: 30px;
+    font-weight: 600;
+}
 header {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+   
+
     
     
-    max-height: 54px;
+    
+    height: 80px;
     background-color: black;
 
     
    
 }
 
-header .container{
+.container{
 
+    width: 1155px;
+}
+
+header .container{
     display: flex;
     justify-content: space-between;
+
+    
     align-items: center;
 
-    max-width: 940px;
-    margin-left: auto;
-    margin-right: auto;
-
-
+    
 
 }
 
 
-img{
+
+
+.logo{
 height: 40px;
 width: 132px;
+margin: 5px;
 
     
 }
@@ -40,18 +72,81 @@ ul{
 
     display: flex;
     list-style: none;
+    flex-direction: row;
+    align-items: center;
     
     
 
 }
 
 li{
+    display: flex;
+    align-items: center;
     color: white;
-    padding: 5px;
+
+    
+    margin-left: 40px;
+    font-weight: 600;
     
     
 }
 
 span{
+    color: white;
+}
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    background-color:#ffcdd2 ;
+    height: 431px;
+    align-items: center;
+}
+
+.sec1-arrange{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.ad1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.ad1img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.ad-heading-caption{
+    margin-top: 30px;
+
+}
+
+
+.ad-link{
+    margin-top: 30px;
+}
+
+
+.ad-link a{
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: solid 1px  black;
+    border-radius: 25px;
+    padding: 14px 32px; 
+    color: black;
+    
+}
+
+a.ad-link-get-started{
+    background-color: black;
     color: white;
 }
