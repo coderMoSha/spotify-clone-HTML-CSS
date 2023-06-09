@@ -45,6 +45,7 @@ header {
 .container{
 
     width: 1155px;
+    display: flex;
 }
 
 header .container{
@@ -150,3 +151,34 @@ a.ad-link-get-started{
     background-color: black;
     color: white;
 }
+
+
+.section-2{
+
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.sec2-arrange{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top:72px;
+    padding-bottom:72px;
+}
+
+.sec2-arrange p{
+    margin-top: 30px;
+}
+
+.download-img{
+    margin-top: 30px;
+}
+
+
+
