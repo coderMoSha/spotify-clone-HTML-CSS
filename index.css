@@ -11,6 +11,12 @@ h1{
     font-size: 2.2rem;
 }
 
+h2{
+    font-size:1.5rem ;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
 p{
     font-size: 1.3rem;
     font-weight: 500;
@@ -18,6 +24,8 @@ p{
 a{
     color: black;
 }
+
+
 
 
 .caption{
@@ -43,20 +51,23 @@ header {
 }
 
 .container{
-
-    width: 1155px;
     display: flex;
+    align-items: center;
+
+    width: 1140px;
+    
+}
+
+.navigation-1{
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-between;
+     
 }
 
 header .container{
-    display: flex;
-    justify-content: space-between;
-
     
-    align-items: center;
-
-    
-
 }
 
 
@@ -92,16 +103,24 @@ li{
     
 }
 
-span{
-    color: white;
+
+nav ul li:hover{
+    color: rgb(29, 218, 29);
 }
+
+
+
+
 
 .section-1{
     display: flex;
     justify-content: center;
     background-color:#ffcdd2 ;
-    height: 431px;
     align-items: center;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .sec1-arrange{
@@ -109,6 +128,7 @@ span{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    width: 100%;
 }
 
 .ad1{
@@ -155,10 +175,13 @@ a.ad-link-get-started{
 
 .section-2{
 
-    height: 480px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
 
 
 }
@@ -168,6 +191,7 @@ a.ad-link-get-started{
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 100%;
     padding-top:72px;
     padding-bottom:72px;
 }
@@ -179,6 +203,97 @@ a.ad-link-get-started{
 .download-img{
     margin-top: 30px;
 }
+
+
+
+.section-3{
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.sec3-arrange{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+.feature-content{
+
+    width: 25%;
+}
+
+.feature-image{
+    height: 200px;
+    width: 70%;
+
+    margin: 50px 4px;
+
+    
+}
+
+
+.section-4{
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.sec4-arrange{
+display: flex;
+flex-direction: column;
+align-items: space-between;
+
+
+
+}
+
+
+.plans{
+
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    
+    justify-content: space-evenly;}
+
+
+.each-plan{
+
+
+    border: 1px solid rgba(87, 80, 80, 0.548);
+    border-radius: 10px;
+    text-align: left;
+    
+    box-shadow: 1px 0px 10px 4px rgba(128, 128, 128, 0.349);
+    width: 32%;
+    
+    
+}
+
+
 
 
 
