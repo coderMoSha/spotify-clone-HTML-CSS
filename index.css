@@ -31,7 +31,7 @@ a{
 .caption{
     font-size: 0.7rem;
     margin-top: 30px;
-    font-weight: 600;
+    font-weight: 300;
 }
 header {
     display: flex;
@@ -289,11 +289,98 @@ align-items: space-between;
     
     box-shadow: 1px 0px 10px 4px rgba(128, 128, 128, 0.349);
     width: 32%;
+    height: auto;
     
+
+    padding: 20px;
     
 }
 
 
 
 
+.each-plan p{
 
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#duration {
+    padding: 4px 8px;
+    border-radius: 5px;
+    background: rgb(46, 119, 208);
+    color: white;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    width: 110px;
+    
+}
+
+.top-section-plan{
+
+    height: 150px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+
+}
+
+
+.top-section-plan h2{
+    margin-bottom: 5px;
+}
+
+.middle-section-plan{
+
+    padding: 32px 0 16px;
+    height: 240px;
+    
+}
+
+.middle-section-plan p img{
+    
+    
+    margin-right: 10px;
+    text-align: center;
+   
+}
+
+
+.middle-section-plan p {
+    
+    display: flex;
+    align-items: center;
+   
+}
+
+.plan-get-started{
+
+
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+
+    font-size: 0.9rem;
+    font-weight: 600;
+    
+    border: solid 1px  black;
+    border-radius: 25px;
+    padding: 14px 32px; 
+    background-color: black;
+    
+    
+
+}
+
+.plan-get-started a{
+    text-decoration: none;
+    color: white;
+}
+
+.each-plan .caption{
+    font-size: 0.7rem;
+    margin-top: 30px;
+    font-weight: 300;
+    text-align: left;
+}
